@@ -12,4 +12,4 @@ kind: Namespace
 metadata:
   labels:
     ns: ap
-  name: application-ns
+  name: ivt
