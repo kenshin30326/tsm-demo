@@ -4,5 +4,11 @@ kind: Namespace
 metadata:
   labels:
     istio-injection: enabled
-    kubernetes.io/metadata.name: ap2
   name: ap2
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  labels:
+    ns: ap
+  name: application-ns
