@@ -4,6 +4,7 @@ kind: Namespace
 metadata:
   labels:
     istio-injection: enabled
+    ns: ap2
   name: ap2
 ---
 apiVersion: v1
